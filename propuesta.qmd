@@ -1,0 +1,82 @@
+---
+title: "Propuesta Desarrollo Software de Gestión de Costo de Vida"
+subtitle:  "CostOfLiving"
+author: "Sur Social"
+format: 
+  revealjs: 
+    self-contained: true
+    theme: sky
+    css: custom.css
+    slide-number: true
+    transition: fade
+include-in-header:
+  - text: "|
+      <style>
+      #title-slide .title {
+        font-size: 80px;
+      }
+      </style>"
+---
+
+:::  {.smaller}
+
+## Objetivo
+
+El proyecto "CostOfLiving" tiene como objetivo desarrollar una plataforma que permita a BAT: 
+
+1. Informar de manera oportuna sobre la situación de los productores de tabaco.
+1. Crear herramientas para el monitoreo de gastos, ingresos y otros factores económicos que afectan la vida de los productores.
+1. Mantener un repositorio de información histórica de productores, para realizar análisis con facilidad.
+1. Facilitar la toma de decisiones y la gestión de apoyo a productores.
+
+:::
+
+# Alcance del Proyecto
+
+## Descripción General
+- Estratificación de productores por ingresos, gastos y productividad.
+- Dashboard en de infomación territorial y agrupada.
+- Módulos para gestión de ingresos y gastos personalizado por productor.
+- Análisis de datos y reportes agrupado y personalizado por productor.
+- Recomendaciones de accioón personalizadas.
+
+
+## Tecnologías a Utilizar
+- Backend: Django
+- Base de Datos: PostgreSQL
+- Infraestructura: Docker
+- Frontend: React
+- Análisis de Datos: Pandas, NumPy
+
+# Plan de Desarrollo
+
+## Fases del Proyecto
+- **Levantamiento funcionalidades** (2 semanas)
+- **Diseño** (2 semanas)
+- **Desarrollo** (10 semanas)
+- **Pruebas** (3 semanas)
+- **Despliegue** (1 semana)
+
+Total: 4.5 meses.
+
+# Presupuesto
+
+## Costos de Desarrollo
+- Desarrollo de software: $10.000.000
+- Considera 12 meses sin coste de mantención
+- Desde el mes 13 se cobrará mantención de 12-UF ($450.000 aprox).
+
+## Plan de Pagos
+- 50% al inicio del proyecto
+- 25% a la mitad del proyecto
+- 25% al finalizar el proyecto
+
+## Resumen Final
+- Solución integral para la gestión de costos de vida de los productores de tabaco.
+- Permitiendo a BAT monitorear la situación de los productores y mejorar la gestión de apoyo.
+
+# Prototipo
+
+[Ejemplo de prototipo](https://app.uizard.io/p/a7679383/fullscreen){target="_blank"}
+
+
